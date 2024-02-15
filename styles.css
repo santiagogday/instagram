@@ -1,0 +1,154 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(209, 209, 209);
+    height: 330px;
+    width: 305px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input{
+    margin-top: 10px;
+    padding: 8px;
+    width: 250px;
+    background-color: rgb(236, 236, 236);
+    outline: none;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 2px;
+}
+
+.form input::placeholder{
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+.form button{
+    margin-top: 25px;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 149, 246);
+    width: 200px;
+    padding: 5px;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: rgb(5, 121, 199)
+}
+
+.secondContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px;
+    margin: 10px;
+    width: 305px;
+}
+
+.registrarte{
+    text-decoration: none;
+    color: blue;
+}
+
+.downloads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instagram{
+    width: 175px;
+}
+
+.facebook{
+    margin-top: 20px;
+}
+
+.facebook a{
+    color: #385185;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.facebook img{
+    height: 15px;
+    width: 15px;
+}
+
+.forgottenPassword{
+    margin-top: 20px;
+}
+
+.forgottenPassword a {
+    font-size: 13px;
+    text-decoration: none;
+    color: blue;
+    margin-top: 20px;
+}
+
+.downloadImagges img{
+    height: 30px;
+    width: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}    
+
+.referencesWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.referencesWrapper a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: gray;
+}
+
+.credits p{
+    color: gray;
+}
+
+@media screen and (max-width: 530px) {
+    .mainContainer{
+        border: none;
+    }
+
+    .secondContainer{
+        border: none;
+    }
+}
