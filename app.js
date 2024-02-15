@@ -7,11 +7,12 @@ app.use(express.json());
 
 //CONFIGURACION DE BASE DE DATOS
 const pgClient = new Client({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'usuarios',
-    password: '9521',
-    port:5432
+    user: 'fl0user',
+    host: 'ep-square-grass-a5d3sxuv.us-east-2.aws.neon.fl0.io',
+    database: 'database',
+    password: 'FMe35EOTkYJh',
+    port:5432,
+    ssl:require
 })
 
 pgClient.connect()
